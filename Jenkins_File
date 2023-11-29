@@ -6,7 +6,7 @@
  stages { 
  stage('Build the Package') { 
  steps { 
- // Building the packages using Maven 
+ // Building the packages using Maven is
  sh 'mvn clean package' 
  } 
  }
